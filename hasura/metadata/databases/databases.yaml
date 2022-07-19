@@ -1,0 +1,9 @@
+- name: AMAI
+  kind: postgres
+  configuration:
+    connection_info:
+      database_url: postgres://zimvnvialrnbhf:4deacdb1ba4b742689b2e5f27de7752b256d306c84406fb6ba8de34d15e7df66@ec2-18-215-111-67.compute-1.amazonaws.com:5432/d9307akaqo6b3q
+
+      pool_settings: {}
+      use_prepared_statements: false
+  tables: "!include AMAI\\tables\\tables.yaml"
